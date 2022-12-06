@@ -22,4 +22,9 @@ public class library_controller {
         return "view book detiles here";
     }
 
+    @PostMapping("/search")
+    public String search(){
+        return  "search book detiles here";
+    }
+
 }
