@@ -27,4 +27,9 @@ public class library_controller {
         return  "search book detiles here";
     }
 
+    @PostMapping("/edit")
+    public String edit(){
+        return "edit book detiles";
+    }
+
 }
