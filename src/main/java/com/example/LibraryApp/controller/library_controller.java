@@ -10,4 +10,10 @@ public class library_controller {
     public String home(){
         return  "welcome to home page of library app";
     }
+
+    @PostMapping("/add")
+    public String add (){
+        return "add library detiles";
+    }
+
 }
