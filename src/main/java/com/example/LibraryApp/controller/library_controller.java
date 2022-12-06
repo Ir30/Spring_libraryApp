@@ -32,4 +32,9 @@ public class library_controller {
         return "edit book detiles";
     }
 
+    @PostMapping("/delete")
+    public String delete(){
+        return "delete book here...";
+    }
+
 }
